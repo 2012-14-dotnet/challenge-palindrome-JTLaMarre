@@ -17,7 +17,12 @@ namespace Palindrome.Client
         public static  void IsPal()
         {
             Console.WriteLine("Type a string to see if is palindrome");
-            I.GetInput();
+           string a = I.GetInput();
+           char[] ch = a.ToCharArray();
+           Array.Reverse(ch);
+           string rev = new string(ch);
+           Console.WriteLine(rev);
+
             
         }
     }

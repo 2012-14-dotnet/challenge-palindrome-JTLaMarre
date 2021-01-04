@@ -26,10 +26,30 @@ namespace Palindrome.Client
            if(rev == a)
            {
                Console.WriteLine("It's a Palidrome!!");
+               Console.WriteLine("1 to check an other word 0 to exit");
+               int.TryParse(System.Console.ReadLine(), out int input);
+               if(input == 1)
+               {
+                   IsPal();
+               }
+               else
+               {
+                   Console.WriteLine("goodbye...");
+               }
            }
            else
            {
                Console.WriteLine("not a Palidrome bud :( ");
+               Console.WriteLine("1 to check an other word 0 to exit");
+               int.TryParse(System.Console.ReadLine(), out int input);
+               if(input == 1)
+               {
+                   IsPal();
+               }
+               else
+               {
+                   Console.WriteLine("goodbye...");
+               }
            }
 
             

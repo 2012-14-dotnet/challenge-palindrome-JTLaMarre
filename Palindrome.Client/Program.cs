@@ -23,6 +23,15 @@ namespace Palindrome.Client
            string rev = new string(ch);
            Console.WriteLine(rev);
 
+           if(rev == a)
+           {
+               Console.WriteLine("It's a Palidrome!!");
+           }
+           else
+           {
+               Console.WriteLine("not a Palidrome bud :( ");
+           }
+
             
         }
     }
